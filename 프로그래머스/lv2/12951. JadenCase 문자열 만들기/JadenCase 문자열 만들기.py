@@ -2,6 +2,8 @@ def solution(s):
     answer = ''
     s = s.split(' ')
     
+    print(s)
+    
     for i in range(len(s)):
         s[i] = s[i].capitalize()
         
